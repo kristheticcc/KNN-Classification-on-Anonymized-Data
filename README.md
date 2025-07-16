@@ -1,44 +1,42 @@
-#📢 K-Nearest Neighbors (KNN) Classification Project
+# 📢 K-Nearest Neighbors (KNN) Classification Project
 
-This Jupyter Notebook implements a K-Nearest Neighbors (KNN) classification model to predict a binary target class from an unknown dataset. 
-The notebook includes Exploratory Data Analysis (EDA) , feature preprocessing, model training, and evaluation using popular Python libraries.
+This Jupyter Notebook implements a **K-Nearest Neighbors (KNN)** classification model to predict a **binary target class** from an unknown dataset. The notebook includes **Exploratory Data Analysis (EDA)**, feature preprocessing, model training, and evaluation using popular Python libraries.
 
-The goal is to determine whether a data point belongs to one of two categories based on its features using the KNN algorithm , 
-and to find the best value of k that gives the most accurate predictions.
+The goal is to determine whether a data point belongs to one of two categories based on its features using the **KNN algorithm**, and to find the best value of **k** that gives the most accurate predictions.
 
- **📊 Dataset**
+## 📊 Dataset
 
-This dataset contains numerical features which are labeled and a binary TARGET CLASS column indicating the outcome or category for each observation.
-Data Set available at: https://www.kaggle.com/datasets/nitya1510/knn-project-data
+This dataset contains numerical features which are labeled and a binary `TARGET CLASS` column indicating the outcome or category for each observation.
 
+🔗 [Download the dataset from Kaggle](https://www.kaggle.com/datasets/nitya1510/knn-project-data )
 
- **🔍 Features**
+## 🔍 Features
 
-✅ Exploratory Data Analysis (EDA) with visualizations< br / >
-✅ Feature scaling using StandardScaler for better KNN performance< br / >
-✅ Train/Test split and model training using KNeighborsClassifier< br / >
-✅ Evaluation metrics : Confusion matrix, classification report, accuracy score< br / >
-✅ Hyperparameter tuning : Using the Elbow Method to select the optimal k value< br / >
-💡 Insights into how different features influence the prediction of the target class< br / >
- 🛠️ How to Use< br / >
+✅ Exploratory Data Analysis (EDA) with visualizations  
+✅ Feature scaling using `StandardScaler` for better KNN performance  
+✅ Train/Test split and model training using `KNeighborsClassifier`  
+✅ Evaluation metrics: Confusion matrix, classification report, accuracy score  
+✅ Hyperparameter tuning: Using the Elbow Method to select the optimal `k` value  
+💡 Insights into how different features influence the prediction of the target class  
 
-**Clone this repository**
-Download the dataset (https://www.kaggle.com/datasets/nitya1510/knn-project-data) and place it in the project folder
-Install required packages : pandas, numpy, sklearn, matplotlib, and seaborn
-Open the notebook in Jupyter Notebook
-Run the cells to:
-Explore the data visually
-Preprocess and scale the features
-Train and evaluate the KNN model
-Tune k values using error rate analysis
- 
- **🧠 Tips & Notes**
+## 🛠️ How to Use
 
-KNN is sensitive to feature scales , so we use StandardScaler before modeling
-The Elbow Method helps choose the best k by minimizing error
-Since the dataset has no descriptive feature names, we work with columns like X1, X2, etc.
-This is a great example of working with real-world unlabeled datasets
- 
- 👨‍💻 Author
+1. Clone this repository
+2. Download the dataset and place it in the project folder
+3. Install required packages: `pandas`, `numpy`, `sklearn`, `matplotlib`, and `seaborn`
+4. Open the notebook in Jupyter Notebook
+5. Run the cells to:
+   - Explore the data visually
+   - Preprocess and scale the features
+   - Train and evaluate the KNN model
+   - Tune `k` values using error rate analysis
+
+## 🧠 Tips & Notes
+
+- KNN is sensitive to feature scales, so we use `StandardScaler` before modeling
+- The Elbow Method helps choose the best `k` by minimizing error
+- This is a great example of working with real-world unlabeled datasets
+
+## 👨‍💻 Author
 
 Krish Makwana
